@@ -8,6 +8,7 @@
 </head>
 <body>
 
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
     <div class="container">
       <a class="navbar-brand fw-bold" href="index.html">Bootstrap UI</a>
@@ -24,31 +25,43 @@
     </div>
   </nav>
 
+  <!-- Contact Form -->
   <section class="py-5 bg-light">
     <div class="container">
       <h2 class="text-center fw-bold text-primary mb-4">Get in Touch</h2>
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <form class="shadow p-4 bg-white rounded">
+          <!-- Replace the action URL with your Formspree endpoint -->
+          <form action="https://formspree.io/f/xeoparjes" method="POST" class="shadow p-4 bg-white rounded">
+            
             <div class="mb-3">
               <label for="name" class="form-label">Your Name</label>
-              <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
             </div>
+
             <div class="mb-3">
               <label for="email" class="form-label">Email Address</label>
-              <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
             </div>
+
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
-              <textarea id="message" class="form-control" rows="4" placeholder="Write your message..." required></textarea>
+              <textarea id="message" name="message" class="form-control" rows="4" placeholder="Write your message..." required></textarea>
             </div>
+
             <button type="submit" class="btn btn-primary w-100">Send Message</button>
           </form>
+
+          <!-- Optional success note -->
+          <p class="text-center text-muted mt-3">
+            <small>Powered by <a href="https://formspree.io" target="_blank" class="text-decoration-none text-primary">Formspree</a></small>
+          </p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="bg-primary text-white text-center py-3">
     <p class="mb-0">&copy; 2025 Bootstrap UI Project. All rights reserved.</p>
   </footer>
