@@ -90,10 +90,11 @@ By completing this task, I learned:
 ---
 
 ## 🌐 Submission Links
-- **GitHub Repository:** `https://github.com/yasaswisri/bootstrap-ui-project.git`  
-- **Live Demo:** `https://github.com/yasaswisri/bootstrap-ui-project.git`
+- **GitHub Repository:** `https://github.com/yasaswisri/bootstrap-ui-project' 
+- **Live Demo:** `https://yasaswisri.github.io/bootstrap-ui-project/`
 
 ---
 
 ✅ **End of Report**
+
 > *Transparency, learning, and creativity were maintained throughout the project.
